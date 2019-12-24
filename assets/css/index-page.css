@@ -1,0 +1,163 @@
+html, body{
+	padding: 0;
+	margin: 0;
+	font-family: Helvetica;
+	position: relative;
+}
+nav{
+	width: 100%;
+	height: 60px;
+	margin: 0 !important;
+	display: flex;
+	justify-content: flex-end;
+}
+nav span{
+  	color: #858482;
+  	margin-top: 30px;
+  	margin-right: 40px;
+}
+nav ul{
+	display: flex;
+	margin: 0;
+  	list-style-type: none;
+  	margin-top: 30px;
+  	margin-right: 20px;
+}
+nav ul a{
+	text-decoration: none;
+}
+nav ul a li{
+	padding-right: 10px;
+	color: #858482;
+}
+nav ul a li:hover{
+	color: #000;
+}
+nav span:hover{
+	cursor: pointer;
+	color: #000;
+}
+
+.menu-container{
+	/*background: #fafafa;*/
+	width: 250px;
+	height: 100vh;
+	position: fixed;
+	z-index: 1;
+	right: 0;
+	top: 0;
+	/*box-shadow: 0px 0px 10px 2px #888888;*/
+	padding: 10px 0px 0px 20px;
+	overflow-x: hidden;
+	transition: 0.5s;
+	width: 0px;
+	/*display: none;*/
+}
+.menu-container span{
+	color: #858482;
+	cursor: pointer;
+	width: 100%;
+}
+#hide-menu{
+	font-size: 35px;
+	margin-left: 80%;
+}
+
+.logo-div{
+	width: 180px;
+	position: absolute;
+	top: 150px;
+	left: 50%;
+	transform: translate(-50%);
+}
+.site-name{
+	font-size: 40px;
+	text-transform: uppercase;
+	text-align: center;
+	width: 180px;
+	font-weight: bold;
+	position: absolute;
+	top: 365px;
+	left: 50%;
+	transform: translate(-50%);
+	-webkit-user-select: none; /* Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+/Edge */
+	user-select: none; /* Standard */
+}
+form{
+	position: absolute;
+	top: 450px;
+	left: 50%;
+	transform: translate(-50%);
+}
+.search-bar-div{
+	width: 700px;
+	display: flex;
+	/*border: 1px solid grey;*/
+	box-shadow: 0px 1px 4px 1px #888888;
+	border-radius: 10px;
+}
+
+.input-box-div{
+	width: 92%;
+	height: 47px;
+	margin: 0;
+	/*background: yellow;*/
+}
+.search-btn-div{
+	height: 47px;
+	width: 8%;
+	margin: 0;
+	/*background: lightgreen;*/
+}
+.input-box{
+	width: 100%;
+	/*height: 34px;*/
+	height: 100%;
+	box-sizing : border-box;
+	padding-left: 10px;
+	border: none;
+	outline: none;
+	font-size: 15px;
+	border-radius: 10px;
+}
+
+.search-btn{
+	width: 100%;
+	height: 100%;
+	margin: 0 !important;
+	background: none;
+	border: none;
+	outline: none;
+	font-size: 20px;
+	color: grey;
+	cursor: pointer;
+}
+.search-btn:active{
+	color: lightgrey;
+}
+/* -------------------------- */
+.menu-container div ul{
+	list-style: none;
+	padding: 0px;
+}
+.menu-container div ul li button{
+	width: 90%;
+	height: 50px;
+	margin-bottom:20px;
+	background: transparent;
+	border: 2px solid #000;
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.fa-facebook-square{
+	color: blue;
+}
+.fa-youtube{
+	color: red;
+}
+.fa-globe-asia{
+	color: green;
+}

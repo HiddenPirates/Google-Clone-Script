@@ -1,0 +1,11 @@
+@media only screen and (max-width: 600px) {
+  .logo-div{
+    top: 100%;
+  }
+  .site-name{
+    top: 300px;
+  }
+  .search-bar-div{
+    width: 500px;
+  }
+}
